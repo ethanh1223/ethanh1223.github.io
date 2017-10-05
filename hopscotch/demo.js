@@ -19,4 +19,9 @@
     };
 
     // Start the tour!
-    hopscotch.startTour(tour);
+    
+
+    window.addEventListener('DOMContentLoaded', () => {
+      hopscotch.startTour(tour);  
+      console.log('dom loaded')
+    })
