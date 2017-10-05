@@ -6,14 +6,14 @@
         {
           title: "My Header",
           content: "This is the header of my page.",
-          target: "header",
+          target: document.querySelector('#infoSection')
           placement: "right"
         },
         {
           title: "My content",
           content: "Here is where I put my content.",
-          target: document.querySelector("#content p"),
-          placement: "bottom"
+          target: document.querySelector("#githubIcon"),
+          placement: "right"
         }
       ]
     };
