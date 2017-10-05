@@ -6,7 +6,7 @@
         {
           title: "My Header",
           content: "This is the header of my page.",
-          target: document.querySelector('#infoSection')
+          target: document.querySelector('#infoSection'),
           placement: "right"
         },
         {
