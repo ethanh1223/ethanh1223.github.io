@@ -1,7 +1,7 @@
 var appendTarget = document.querySelector('#appendTarget');
 
 var node = document.createElement('h1');
-node.innerText = 'hey';
+node.innerText = 'WILL WE COLLECT?';
 
 console.log(appendTarget)
 console.log(node)
